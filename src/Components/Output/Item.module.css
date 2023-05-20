@@ -1,0 +1,79 @@
+.product-div {
+  display: flex;
+  width: calc(100% - 60%);
+  flex-direction: column;
+  background: linear-gradient(135deg, #ff94c2, #4a8fff);
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease;
+  color: #ffffff;
+}
+
+.product-div:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.list-data {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.product-title {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.product-description {
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.list-actions {
+  display: flex;
+  align-items: center;
+}
+
+.product-price {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #ffffff;
+}
+
+.quantity-input {
+  width: 50px;
+  margin-right: 30px;
+  border-radius: 6px;
+}
+
+.quantity-input input {
+  width: 100%;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  text-align: center;
+  color: #333333;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-button {
+  background-color: #ffffff;
+  color: #007bff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #e5e5e5;
+}

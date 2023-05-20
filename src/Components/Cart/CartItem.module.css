@@ -1,0 +1,52 @@
+.cartItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.itemInfo {
+  display: flex;
+  align-items: center;
+}
+
+.itemName {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-right: 10px;
+  flex-grow: 1;
+}
+
+.itemPrice {
+  font-size: 1rem;
+  width: 80px;
+  text-align: right;
+}
+
+.itemQuantity {
+  font-size: 1rem;
+  color: #777;
+  margin-left: 10px;
+}
+
+.btnContainer {
+  display: flex;
+}
+
+.decreaseBtn,
+.increaseBtn {
+  padding: 8px 12px;
+  background-color: #451ef3;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.decreaseBtn:hover,
+.increaseBtn:hover {
+  background-color: #281094;
+}

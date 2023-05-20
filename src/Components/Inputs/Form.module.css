@@ -1,0 +1,18 @@
+.wrapperStyle {
+  width: 60%;
+  margin: 2rem auto;
+  margin-top: 7rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 90%;
+
+}
+
+.addButton {
+  text-align: center;
+}
